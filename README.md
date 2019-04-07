@@ -6,7 +6,7 @@
 
 ## Browse
 
-* [Quick Switch](#quick-switch)
+* [My Map](#my-map)
 * [Howto Install](#howto-install)
 
 
@@ -28,9 +28,19 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 ## My Map
 
-> Not all. Just introduction. Please read [plugin/FitKeyRaw.vim](plugin/FitKeyRaw.vim) to find all key map.
+> Maybe not all. Just introduction. Please read [plugin/FitKeyRaw.vim](plugin/FitKeyRaw.vim) to find all key map.
 
 > Just fit on Normal Mode
+
+* [Quick Switch](#quick-switch)
+* [Delete Buffer](#delete-buffer)
+* [Quit](#quit)
+* [Hide](#hide)
+* [Only](#only)
+* [Buffer List](#buffer-list)
+* [Save](#save)
+* [TabPage](#tabpage)
+
 
 ## Quick Switch
 
