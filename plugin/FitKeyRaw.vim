@@ -31,17 +31,17 @@
 ""
 
 " ## delete buffer
-nnoremap <Bslash>q :q<CR>    " single
-nnoremap <Bslash>x :qa<CR>   " all
-nnoremap <Bslash>z :q!<CR>   " single
-nnoremap <Bslash>c :qa!<CR>  " all
+nnoremap <Bslash>q :q<CR>
+nnoremap <Bslash>x :qa<CR>
+nnoremap <Bslash>z :q!<CR>
+nnoremap <Bslash>c :qa!<CR>
 
 
 " ## quit
-nnoremap ,q :bdelete<CR>     " single
-nnoremap ,x :%bdelete<CR>    " all
-nnoremap ,z :bdelete!<CR>    " single
-nnoremap ,c :%bdelete!<CR>   " all
+nnoremap ,q :bdelete<CR>
+nnoremap ,x :%bdelete<CR>
+nnoremap ,z :bdelete!<CR>
+nnoremap ,c :%bdelete!<CR>
 
 
 ""
@@ -54,8 +54,8 @@ nnoremap ,c :%bdelete!<CR>   " all
 ""
 
 " ## switch buffer
-nnoremap <C-j> :bprevious<CR> " Quick Switch
-nnoremap <C-k> :bnext<CR> " Quick Switch
+nnoremap <C-j> :bprevious<CR>
+nnoremap <C-k> :bnext<CR>
 "nnoremap <C-Up> :bprevious<CR>
 "nnoremap <C-Down> :bnext<CR>
 " https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim
@@ -81,13 +81,15 @@ nnoremap ,s :w<CR>
 ""
 
 "" ## switch window
-nnoremap <Tab> <C-w>w  " Quick Switch ## use <Tab> or <C-i>
-nnoremap <BS> <C-w>W  " Quick Switch
+" Quick Switch ## use <Tab> or <C-i>
+nnoremap <Tab> <C-w>w
+" Quick Switch
+nnoremap <BS> <C-w>W
 
 
 " ## current window only
 "nnoremap ,wa <C-w>o
-nnoremap ,wa :only<CR> " let me know which command
+nnoremap ,wa :only<CR>
 
 
 " ## hide
@@ -117,9 +119,10 @@ nnoremap <S-Right> <C-w>>
 " default <C-PageDown> for tabnext. but gnome-terminal switch tab
 "nnoremap <C-Left> :tabprevious<CR>
 "nnoremap <C-Right> :tabnext<CR>
-nnoremap <C-h> :tabprevious<CR> " Quick Switch
-nnoremap <C-l> :tabnext<CR> " Quick Switch
-nnoremap ,u :redraw<CR> "  for orignal <C-l>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
+"  for orignal <C-l>
+nnoremap ,u :redraw<CR>
 " https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim
 
 
@@ -132,7 +135,8 @@ nnoremap <Space><Space>s :tab split<CR>
 nnoremap <Space><Space>t :tabnew<CR>
 nnoremap <Space><Space>e :tabedit<Space>
 nnoremap <Space><Space>f :tabnew<CR>:edit<Space>
-"nnoremap <Space><Space>c :tabclose<CR> " space-vim default
+" space-vim default
+"nnoremap <Space><Space>c :tabclose<CR>
 
 
 " ## quit all
